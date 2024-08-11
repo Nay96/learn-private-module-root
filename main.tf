@@ -8,4 +8,5 @@ module "s3-webapp" {
   region  = var.region
   prefix  = var.prefix
   version = "1.0.0"
+  skip_credentials_validation = true
 }
